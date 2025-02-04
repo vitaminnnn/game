@@ -1,0 +1,14 @@
+.canvas-board {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.canvas-board.game-over {
+    border-color: red;
+    background-color: #ffe6e6;
+}

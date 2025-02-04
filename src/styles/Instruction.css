@@ -1,0 +1,65 @@
+.instruction-container {
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.instruction-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.instruction-note {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.instruction-keys {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.direction-keys {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.direction-keys span {
+    margin-bottom: 10px;
+}
+
+kbd {
+    font-size: 1.2rem;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 2px 6px;
+    margin: 0 4px;
+    font-family: monospace;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.reset-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset-button {
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+    background-color: #0056b3;
+}
